@@ -9,6 +9,7 @@
         <field name="arch" type="xml">
             <field name="sale_order_template_id" position="before">
                 <field name="internal_ref"/>
+                <field name="user_id"/>
             </field>
         </field>
     </record>
